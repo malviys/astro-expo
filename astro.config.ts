@@ -7,6 +7,8 @@ import tailwindcss from "@tailwindcss/vite";
 import { rnw } from "vite-plugin-rnw";
 import { uniwind } from "uniwind/vite";
 
+import cloudflare from "@astrojs/cloudflare";
+
 // https://astro.build/config
 export default defineConfig({
   integrations: [
@@ -26,6 +28,7 @@ export default defineConfig({
     }),
     react(),
   ],
+
   vite: {
     resolve: {
       alias: {
@@ -48,4 +51,6 @@ export default defineConfig({
       }),
     ],
   },
+
+  adapter: cloudflare(),
 });

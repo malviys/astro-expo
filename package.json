@@ -10,6 +10,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/cloudflare": "^12.6.12",
     "@astrojs/react": "^4.4.2",
     "@astrojs/starlight": "^0.37.6",
     "@astrojs/tailwind": "^6.0.2",
@@ -67,6 +68,7 @@
     }
   },
   "devDependencies": {
-    "@astrojs/react": "^4.4.2"
+    "@astrojs/react": "^4.4.2",
+    "wrangler": "^4.71.0"
   }
 }
