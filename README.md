@@ -16,7 +16,7 @@ This project is configured to use `pnpm` as its package manager. Ensure you have
 1. **Clone the repository** (if you haven't already):
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/malviys/astro-expo.git
    cd astor-expo
    ```
 
